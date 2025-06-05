@@ -1,0 +1,57 @@
+.carousel {
+    margin-inline: 5rem;     
+  }
+  
+  .carousel img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+.descricao {
+  background-color: #A49797;
+  text-align: center;
+  border: 3px solid #504242;
+  border-radius: 20px;
+  margin: 0rem 8rem 0rem 8rem;
+
+}
+.descricao p {
+  margin-inline: 5.5rem;
+  font-size: large;
+}
+.descricao img {
+  margin: 1.5rem 0 1rem 0;
+  width: 10%;
+  border: 3px solid #504242;
+  border-radius: 20px;
+}
+
+.conta {
+  background-color: #504242;
+  color: beige;
+  margin: 2rem 25rem 2rem 25rem;
+  padding: 2rem 0 2rem 0;
+}
+
+
+.espacos {
+  margin-top: 2rem;
+}
+
+footer .contatos{
+  display: flex;
+  background-color: #A49797;
+  margin: 4rem 2rem 1rem 2rem;
+  border-radius: 15px;
+  border: solid 3px gray;
+  gap: 3rem;
+}
+footer p {
+  margin: 1rem 0 1rem 1.5rem;
+  font-size: medium;
+}
+
+footer .c {
+  text-align: center;
+}

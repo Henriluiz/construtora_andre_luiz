@@ -1,0 +1,35 @@
+@media (max-width: 1024px) {
+    #carouselExample {
+        display: none;
+    }
+
+    .descricao {
+        margin-top: 2rem;
+        margin-inline: 2.5rem;
+    }
+    .descricao h3 {
+        font-size: large;
+    }
+    .descricao p {
+        margin-inline: 1rem;
+        font-size: small;
+        }
+    .descricao img {
+        width: 50%;
+        }
+    
+    footer .contatos{
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+        }
+        footer p {
+        margin: 1rem 0.5rem 0.5rem 1.5rem;
+        
+        font-size: small;
+        }
+    
+        .c {
+            font-size: 0.5rem;
+        }
+}
