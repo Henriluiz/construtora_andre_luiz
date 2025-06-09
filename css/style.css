@@ -1,3 +1,7 @@
+html {
+  margin: 0%;
+  padding: 0%;
+}
 .carousel {
     margin-inline: 5rem;     
   }
@@ -49,11 +53,11 @@
 footer .contatos{
   display: flex;
   justify-content: center;
-  background-color: #A49797;
-  margin: 4rem 2rem 1rem 2rem;
-  border-radius: 15px;
-  border: solid 3px gray;
   gap: 1.5rem;
+}
+footer {
+  background-color: #A49797;
+  margin-top: 4rem;
 }
 .fonte-contato {
   display: flex;
@@ -84,11 +88,7 @@ footer .contatos{
   font-family: 'Bebas Neue';
 }
 
-footer p {
-  margin: 1rem 0 1rem 1.5rem;
-  font-size: small;
-}
-
 footer .c {
+  font-size: small;
   text-align: center;
 }
