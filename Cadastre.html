@@ -1,45 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt=br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contatos André Luiz</title>
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
-        <script rel="javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
-    </head>
-    <body style="background-color: #CAC1C1;">
-      <!-- Inicio da NavBar -->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary" >
-        <div class="container-fluid">
-            <nav class="navbar bg-body-tertiary" style="margin-left: 31.5rem;"> <!-- 33 -->
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">
-                    <img src="./image/logo André Luiz.jpeg" alt="Logo" width="85" height="67" class="d-inline-block align-text-top">
-                  </a>
-                </div>
-            </nav>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav" style="gap: 2.5rem;">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Início</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./produto.html">Produtos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./Cadastre.html">Cadastre-se</a>
-              </li>
-            </ul>
-          </div>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Contatos André Luiz</title>
+      <link rel="stylesheet" href="./css/style.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
+      <script rel="javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+      <script rel="javascript" src="./js/script.js"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Iansui&display=swap" rel="stylesheet">
+  </head>
+  <body style="background-color: #CAC1C1;">
+    <!-- Inicio da NavBar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+      <div class="container-fluid">
+          <nav class="navbar bg-body-tertiary" style="margin-left: 31.5rem;"> <!-- 33 -->
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                  <img src="./image/logo André Luiz.jpeg" alt="Logo" width="85" height="67" class="d-inline-block align-text-top">
+                </a>
+              </div>
+          </nav>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav" style="gap: 2.5rem;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./produto.html">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Cadastre.html">Cadastre-se</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-    <!-- Fim Navbar -->
+  <!-- Fim Navbar -->
 
-    <!-- Cadastro -->
+  <!-- Cadastro -->
     <div class="conta">
       <!-- NOME -->
       <div class="row" style="display: flex;">
@@ -132,36 +136,24 @@
 
 
 
-      <footer>
-          <div class="contatos">
-            <div style="margin: auto auto auto auto;">
-              <p>
-                <strong>CONTATOS:</strong><br>
-              </p>
-            </div>
-            <div>
-              <p>1. Matriz – Escritório Central <br>
-              📍 Avenida das Nações, 1120 – Centro Empresarial Torre Sul <br>
-              📍 São Paulo – SP | CEP: 04578-000 <br>
-              📞 (11) 3000-0001 <br>
-              ✉️ atendimento@gmail.com.br</p> 
-            </div>
-            <div>
-              <p>2. Unidade Regional – Belo Horizonte <br>
-              📍 Rua dos Engenheiros, 450 – Bairro Funcionários <br>
-              📍 Belo Horizonte – MG | CEP: 30140-000 <br>
-              📞 (31) 3200-0002</p>
-            </div>
-            <div>
-              <p>3. Unidade Operacional – Goiânia <br>
-              📍 Avenida Construção Civil, Quadra 7, Lote 20 – Setor Pedro Ludovico <br>
-              📍 Goiânia – GO | CEP: 74825-100 <br>
-              📞 (62) 4002-0080</p>
-            </div>
+    <footer>
+        <div class="contatos">
+          <div class="fonte-contato" onclick="abrirEmNovaAba('https://web.whatsapp.com/');">
+            <img src="./image/logo_WhatsApp-removebg-preview.png" alt="Logo Whatsapp">
+            <p class="text-click">(11) 3000-0001</p>
           </div>
-          <p style="text-align: center;">© 2025 André Luiz. Todos os direitos reservados</p>
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
-    </body>
+          <div class="fonte-contato" onclick="abrirEmNovaAba('https://www.instagram.com/henri_luiz07/')"> 
+            <img src="./image/instagram_logo-removebg-preview.png" alt="Logo Instagram">
+            <p class="text-click">@henri_luiz07</p>
+          </div>
+          <div class="fonte-contato" onclick="abrirEmNovaAba('https://www.reclameaqui.com.br/')">
+            <img src="./image/reclame_aqui_logo-removebg-preview.png" alt="Logo Reclame Aqui">
+            <p class="text-click">Entre em contato</p>
+          </div>
+        </div>
+        <p class="c">© 2025 André Luiz. Todos os direitos reservados</p>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
+  </body>
 </html>
