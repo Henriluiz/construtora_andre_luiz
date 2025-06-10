@@ -1,39 +1,28 @@
-Construtora André Luiz
+# 🏗 Construtora André Luiz
 
-Este é um projeto de site fictício para a Construtora André Luiz, uma loja de materiais de construção que, apesar do nome, também é voltada à comercialização de produtos da construção civil. O foco do site é apresentar de forma simples e direta os principais produtos e permitir o cadastro de novos usuários/clientes.
+Bem-vindo ao site da Construtora André Luiz!
+Apesar do nome, somos uma loja de materiais de construção com um visual moderno e organizado para facilitar a navegação dos nossos clientes. Este projeto é uma forma prática e criativa de aplicar conhecimentos em desenvolvimento web. 🚀
 
-🔗 Seções do Site
+## 📄 Seções do Site
 
-O site é dividido nas seguintes seções principais:
+- ### 🏠 Home
+Apresentação da loja e seus principais destaques.
 
-Home
-Página inicial com uma breve apresentação da loja, seu propósito e destaques de produtos.
+- ### 🛒 Produtos
+Exibição de materiais de construção disponíveis, como ferramentas, tintas, cimento, entre outros.
 
-Produtos
-Exibe uma seleção de materiais de construção oferecidos pela loja, como ferramentas, cimento, tintas, entre outros.
-
-Cadastre-se
-Formulário simples para que visitantes possam se cadastrar e receber novidades ou promoções.
-
-Fotos (Capturas de Tela)
-Algumas imagens do site em funcionamento, demonstrando sua estrutura e estilo visual.
+- ### 📝 Cadastre-se
+Formulário simples para que visitantes possam se cadastrar e receber novidades.
 
 
-🖼️ Capturas de Tela
+## 🖼️ Capturas de Tela
 
-> (Adicione aqui imagens com prints do site, por exemplo:)
+> ![Produtos](https://github.com/user-attachments/assets/78e83519-d2a3-4fd5-96bd-841ef01c3edf)
 
 
-🌐 Acesso ao Site
+## 💻 Tecnologias Usadas
 
-Você pode acessar o site através do seguinte link:
-
-👉 Acessar Site da Construtora André Luiz
-(Substitua o link acima pelo URL real do seu projeto, caso esteja hospedado)
-
-🛠️ Tecnologias Utilizadas
-
-O projeto foi desenvolvido utilizando apenas ferramentas front-end, com as seguintes tecnologias:
+Este site foi desenvolvido com foco no front-end, utilizando:
 
 - HTML5
 
@@ -41,11 +30,18 @@ O projeto foi desenvolvido utilizando apenas ferramentas front-end, com as segui
 
 - JavaScript
 
-- Bootstrap 5 (para layout responsivo e componentes visuais)
+- Bootstrap 5 🎨
 
 
-🎯 Objetivo
+Tudo isso para garantir um visual moderno, organizado e responsivo! 📱💡
 
-Este site foi desenvolvido como um projeto educacional, com o objetivo de praticar e demonstrar conhecimentos em desenvolvimento front-end, estruturação de páginas, uso do framework Bootstrap e design responsivo.
+🌐 Acesse o Site
 
-> Este projeto foi feito como parte das atividades da disciplina de Desenvolvimento Web no curso de Desenvolvimento de Sistemas da ETEC de Guaianazes.
+👉 Clique aqui para acessar o site
+🔗 [Construtora André Luiz](https://henriluiz.github.io/construtora_andre_luiz/)
+
+🎯 Objetivo do Projeto
+
+Este projeto foi desenvolvido com fins educacionais, como parte de uma atividade da disciplina de Programação Web no curso de Desenvolvimento de Sistemas da ETEC de Guaianazes.
+Uma forma divertida e prática de aprender e inovar! 💡
+
