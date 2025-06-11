@@ -70,20 +70,5 @@
 
 
 
-    footer .contatos{
-        display: flex;
-        gap: 0.7rem;
-        margin: 0 0 0 0;
-        border-radius: 0px;
-        }
-        footer p {
-        font-size: small;
-        }
-        .contatos img {
-            width: 40px;
-            height: 40px;
-        }
-        .c {
-            font-size: 2;
-        }
+    
 }
