@@ -1,3 +1,7 @@
+.navbar-nav {
+    gap: 2.5rem;
+}
+
 @media (max-width: 1024px) {
     *,
     *::before,
@@ -33,5 +37,17 @@
         padding: 0;
         margin: 0;
     }
-
+    .navbar-nav { 
+        gap: 1.5rem;
+        text-align: center;
+        padding-bottom: 0.5rem;
+    }
+    .nav-item {
+        background-color: #CAC1C1;
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+        border: #504242 solid 2px;
+    }
 }
