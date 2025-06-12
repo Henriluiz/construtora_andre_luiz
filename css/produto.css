@@ -3,6 +3,14 @@
     background-color:#A49797;
     border: solid 3px gray;
 }
+.active {
+    color: yellow;
+}
+
+.btn {
+    background-color: #504242;
+    border: solid 0px;
+}
 
 @media (max-width: 1024px) { 
     .modal {

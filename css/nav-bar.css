@@ -1,6 +1,9 @@
 .navbar-nav {
     gap: 2.5rem;
 }
+.texto-center {
+    margin-left: 34%;
+}
 
 @media (max-width: 1024px) {
     *,
