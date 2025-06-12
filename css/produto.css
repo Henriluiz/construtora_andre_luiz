@@ -5,12 +5,24 @@
 }
 
 @media (max-width: 1024px) { 
-    .card {
-        width: 85%;
-    }
     .modal {
         margin-top: 10%;
         z-index: 1060 !important;
     }
+    .card {
+        width: 85%;
+        animation: autoShowAnimation both;
+        animation-timeline: view(70% 5%);
+    }
     
+
+    @keyframes autoShowAnimation {
+    from{
+        opacity: 0;
+        transform: translateY(200px) scale(0.7);
+    }to{
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+    }
 }
