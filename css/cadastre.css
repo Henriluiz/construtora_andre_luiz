@@ -27,6 +27,9 @@ html {
     background-color: #301515;
     border: none;
 }
+.btn-primary:hover {
+    background-color: orange;
+}
 
 @media (max-width: 1024px) {
     .conta .container {

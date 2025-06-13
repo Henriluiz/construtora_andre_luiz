@@ -11,6 +11,10 @@
     background-color: #504242;
     border: solid 0px;
 }
+.btn-primary:hover {
+    background-color: orange;
+}
+
 
 @media (max-width: 1024px) { 
     .modal {
