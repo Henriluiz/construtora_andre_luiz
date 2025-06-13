@@ -5,14 +5,26 @@ async function sleep(ms) {
 function abrirEmNovaAba(url) {
   window.open(url, '_blank');
 }
+function recarregarPagina() {
+  location.reload(); // Recarrega a página
+}
 
 async function animacaoEmBotton() {
-  // Seleciona o elemento com o ID "meuElemento"
-  const meuElemento = document.getElementById("confirmar");
+  const btn = document.getElementById("confirmar");
+  const textoOriginal = btn.innerHTML; // Salva o texto original
   
-  // Adiciona a classe "novaClasse" ao elemento
-  meuElemento.classList.add("spinner-border spinner-border-sm");
-  sleep(3000)
-  // Para remover uma classe, pode usar o método classList.remove()
-  meuElemento.classList.remove("spinner-border spinner-border-sm");
+  // Ativa spinner
+  btn.innerHTML = `
+    <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+    Enviando...
+  `;
+  btn.disabled = true; // Desabilita o botão durante o processamento
+
+  await sleep(3000); // Espera 3 segundos
+
+  // Restaura estado original
+  btn.innerHTML = textoOriginal;
+  btn.disabled = false;
+  recarregarPagina()
+  alert("Cadastro Concluído!")
 }
