@@ -41,16 +41,39 @@ html {
   border: 3px solid #504242;
   border-radius: 20px;
 }
+#carouselMobile {
+  display: none;
+}
 
 @media (max-width: 1024px) {
     #carouselExample {
       display: none;
   }
+  #carouselMobile {
+    display: block;
+  }
+  #carouselMobile {
+    width: 100%;
+    margin: 0;
+  }
 
   .descricao {
       margin-top: 2rem;
       margin-inline: 2.5rem;
+      animation: autoShowAnimation both;
+      animation-timeline: view(70% 5%);
   }
+
+  @keyframes autoShowAnimation {
+    from{
+        opacity: 0;
+        transform: translateY(80px) scale(0.9);
+    }to{
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+  }
+  
   .descricao h3 {
       font-size: large;
   }
