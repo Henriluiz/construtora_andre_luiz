@@ -15,6 +15,23 @@
     color: white;
 }
 
+/* Distância da imagem e do preço para o texto */
+.color-modal-back p { 
+    margin: 20px 0 20px 0;
+}
+
+/* Container do preço */
+.color-modal-back h5 {
+    margin: 0 10% 0 10%;
+    padding: 1rem 0 1rem 0;
+    border-radius: 15px;
+    font-size: 1.7rem;
+    text-align: center;
+    background-color: #3C2424;
+    color: yellow;
+    text-decoration: underline;
+}
+
 /* Personalização de Botões e suas etapas */
 .btn {
     background-color: #504242;
