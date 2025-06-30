@@ -7,6 +7,16 @@
     color: yellow;
 }
 
+.color-modal-title-back {
+    background-color: #846F6F;
+    color: white;
+}
+
+.color-modal-back {
+    background-color: #564545;
+    color: white;
+}
+
 .btn {
     background-color: #504242;
     border: solid 0px;
@@ -18,7 +28,7 @@
 
 @media (max-width: 1024px) { 
     .modal {
-        margin-top: 10%;
+        margin: auto;
         z-index: 1060 !important;
     }
     .card {
@@ -26,15 +36,21 @@
         animation: autoShowAnimation both;
         animation-timeline: view(70% 5%);
     }
+    .card-body {
+        text-align: center;
+    }
     
+    .btn-modal {
+        background-color: #3C2424;
+    }
 
     @keyframes autoShowAnimation {
-    from{
-        opacity: 0;
-        transform: translateY(200px) scale(0.7);
-    }to{
-        opacity: 1;
-        transform: translateY(0) scale(1);
-    }
+        from{
+            opacity: 0;
+            transform: translateY(200px) scale(0.7);
+        }to{
+            opacity: 1;
+            transform: translateY(0) scale(1);
+        }
     }
 }
