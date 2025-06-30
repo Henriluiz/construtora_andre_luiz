@@ -3,10 +3,8 @@
     background-color:#A49797;
     border: solid 3px gray;
 }
-.active {
-    color: yellow;
-}
 
+/* Cor do modal dos produtos */
 .color-modal-title-back {
     background-color: #846F6F;
     color: white;
@@ -17,14 +15,18 @@
     color: white;
 }
 
+/* Personalização de Botões e suas etapas */
 .btn {
     background-color: #504242;
     border: solid 0px;
 }
-.btn-primary:hover {
+.btn-primary:hover { /* Quando o mouse passa por cima do elemento */
     background-color: orange;
 }
-
+.btn-primary:active { /* Quando o mouse está pressionando o elemento */
+    background-color: orange !important;
+}
+/* ------------------------------------------------- */
 
 @media (max-width: 1024px) { 
     .modal {
